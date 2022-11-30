@@ -80,6 +80,15 @@
   font-size: 2rem;
 }
 
+#boton-carrito:hover {
+  cursor: pointer;
+  color: white;
+  background-color: royalblue;
+}
+#boton-carrito:focus {
+  outline: none;
+}
+
 .boton-agregar {
   background-color: royalblue;
   color: white;
@@ -92,20 +101,6 @@
   cursor: pointer;
 }
 .boton-agregar:focus {
-  outline: none;
-}
-
-.boton-eliminar {
-  background-color: white;
-  color: red;
-  border: none;
-  font-size: 20px;
-}
-
-.boton-eliminar:hover {
-  cursor: pointer;
-}
-.boton-eliminar:focus {
   outline: none;
 }
 
